@@ -1,5 +1,4 @@
-# turn description
-
+# count how many turns have been played, given the current board
 def turn_count(board)
   counter = 0
   board.each do | space |
@@ -9,6 +8,7 @@ def turn_count(board)
   end
   counter
 end
+
 
 def current_player(board)
   # if the count divided by 2 has a remainder of zero; it's X's turn
