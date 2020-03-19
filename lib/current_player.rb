@@ -1,4 +1,4 @@
 # turn description
 
-def turn()
+def turn_count()
 end
