@@ -9,7 +9,8 @@ def turn_count(board)
   counter
 end
 
-
+# determine whose turn it is based on the number of turns that have been played
+# ASSUMPTION: player "X" goes first
 def current_player(board)
   # if the count divided by 2 has a remainder of zero; it's X's turn
   if (turn_count(board) % 2) == 0
