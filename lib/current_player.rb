@@ -7,6 +7,7 @@ def turn_count(board)
       counter += 1
     end
   end
+  counter
 end
 
 # divide by 2; if mod is 0, then an even number of turns have been played and thus it is X's turn
