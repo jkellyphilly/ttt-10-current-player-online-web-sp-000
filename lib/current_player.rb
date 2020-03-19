@@ -18,5 +18,5 @@ def current_player(board)
     #return "O"
   #end
 
-  output = (turn_count(board) % 2) == 2 ? "X" : "O"
+  output = (turn_count(board) % 2) == 0 ? "X" : "O"
 end
